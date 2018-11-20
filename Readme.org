@@ -51,11 +51,35 @@ There is a cut-out for the Raspberry Pi 3 in the bottom of the case.
 
 ** Renders and pictures
 
+Top part of the case 
+
 #+NAME: Top
 #+CAPTION: Top part of the case
 [[./picture/Top.png]]
 
+The whole case with cutout for a Raspberry Pi 3
+
 #+NAME: Case
 #+CAPTION: Complete case
 [[./picture/Case.png]]
+The current prototyp I'm working with
+
+#+NAME: case1
+[[./picture/case.jpeg]]
+
+View of the inside 
+
+#+NAME: inside
+[[./picture/inside.jpeg]]
+
+
+The buttons on a PCB mounted to a 3D printed case
+
+
+#+NAME: buttons
+[[./picture/buttonpcb.jpeg]]
+
+
+
+
 
