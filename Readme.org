@@ -51,5 +51,5 @@ There is a cut-out for the Raspberry Pi 3 in the bottom of the case.
 
 ** Renders and pictures
 
-[[picture/top.png][Top part of the case with place for screen and buttons]]
+[[picture/Top.png][Top part of the case with place for screen and buttons]]
 
