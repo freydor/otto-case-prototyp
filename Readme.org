@@ -1,6 +1,8 @@
  
 * OTTO Prototyp
 *This is a work-in-progress*
+
+
 This Repository contains a 3D-printable model for an OTTO Synthesizer.
 The design is still in development!
 
@@ -12,24 +14,27 @@ The case is spilt in multiple parts so they can be reused.
 
 The table below shows the parts used in this OTTO Prototyp
 
-| Part             | Model                 | Quantity | Price | Link |
-| PCB              |                       |        5 |       |      |
-| Button           | 12x12mm               |  24 + 18 |       |      |
-| Button caps      | 10x10mm               |       42 |       |      |
-| Rotary encoder   |                       |  4 + (2) |       |      |
-| Wire             |                       |          |       |      |
-| Header           | 2.54mm Connector male |          |       |      |
-| Raspberry Pi     |                       |          |       |      |
-| I²S Codec        | PCM5102               |        1 |       |      |
-| Screw            | M3                    |       30 |       |      |
-| Nut              | M3                    |       30 |       |      |
-| Battery          | 18650                 |      1-4 |       |      |
-| Microcontroller  | STM32F4               |        1 |       |      |
-| IO Port extender | MCP23017              |      0-3 |       |      |
-| Screen           |                       |          |       |      |
+| Part             | Model                         | Quantity |  Price | Qty        | Link |
+| PCB              |                               |        5 |   9.00 | (a 40pcs)  | [[https://www.banggood.com/40pcs-FR-4-Double-Side-Prototype-PCB-Printed-Circuit-Board-p-995732.html?rmmds=myorder&cur_warehouse=CN][bg]]   |
+| Button           | 12x12mm                       |  24 + 18 |   2.60 | (a 50PCS)  | [[https://www.banggood.com/50PCS-TC-1212T-12x12x7_3mm-Tact-Tactile-Push-Button-Momentary-SMD-PCB-Switch-p-1000837.html?rmmds=myorder&cur_warehouse=CN][bg]]   |
+| Button caps      | 10x10mm                       |       42 |   2.70 | (a 140pcs) | [[https://www.banggood.com/140pcs-Square-Mixed-Color-Tactile-Button-Caps-Kit-For-12x12x7_3MM-Tact-Switches-p-1005047.html?rmmds=detail-top-buytogether-auto&cur_warehouse=CN][bg]]   |
+| Rotary encoder   |                               |  4 + (2) |   1.80 | (a 1pcs)   | [[https://www.aliexpress.com/item/5PCS-Plum-handle-20mm-rotary-encoder-coding-switch-EC11-digital-potentiometer-with-switch-5-Pin/32872023811.html?spm=2114.search0104.3.15.170924f8Pp5OYP&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10548_10696_10924_10084_453_454_10083_10618_10920_10921_10304_10307_10922_10820_10821_537_10302_536_10843_10059_10884_10887_100031_10319_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=b707c0f7-2442-44cf-a051-b96da28fe8b3-2&algo_pvid=b707c0f7-2442-44cf-a051-b96da28fe8b3][ali]]  |
+| Wire             |                               |       70 |   5.00 | (a 120pcs) | [[https://www.banggood.com/120pcs-30cm-Female-To-Female-Breadboard-Wires-Jumper-Cable-Dupont-Wire-p-1013125.html?rmmds=myorder&cur_warehouse=CN][bg]]   |
+| Header           | 2.54mm pin header male 40 pin |       10 |   1.40 | (a 10pcs)  | [[https://www.banggood.com/10-Pcs-40-Pin-2_54mm-Single-Row-Male-Pin-Header-Strip-For-Arduino-p-918427.html?rmmds=myorder&cur_warehouse=CN][bg]]   |
+| Raspberry Pi     | 3B+                           |        1 |  40.00 |            |      |
+| I²S Codec        | PCM5102                       |        1 |   5.90 | (a 1pcs)   | [[https://www.banggood.com/CJMCU-5102-PCM5102A-Stereo-DAC-Digital-To-Analog-Converter-PLL-Voice-Module-p-1270835.html?rmmds=search&cur_warehouse=CN][bg]]   |
+| Screw            | M3                            |       30 |   6.50 | (a 240pcs) | [[https://www.banggood.com/240pcs-M3-DIN912-Hex-Socket-Head-Cap-Screw-Nut-Assorted-Kits-4-25mm-p-1074609.html?rmmds=myorder&cur_warehouse=CN][bg]]   |
+| Nut              | M3                            |       30 |        | ^          |      |
+| Battery          | 18650                         |      1-4 |  16.40 | (a 4pcs)   | [[https://www.banggood.com/4PCS-3_7V-2600mah-Button-Top-Protected-18650-Lithium-Battery-For-Samsung-p-913785.html?rmmds=search&cur_warehouse=CN][bg]]   |
+| Microcontroller  | STM32F4                       |        1 |   9.80 |            | [[https://www.aliexpress.com/item/Free-shipping-STM32F4-board-STM32F407VET6-STM32-Cortex-M4-development-board-DIY-pin-header/32843484907.html?spm=2114.search0104.3.119.4ed37f9alnSUcz&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10548_10696_10924_10084_453_454_10083_10618_10920_10921_10304_10307_10922_10820_10821_537_10302_536_10843_10059_10884_10887_100031_10319_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=c78d0674-f969-4473-b547-17dce7a89c4c-18&algo_pvid=c78d0674-f969-4473-b547-17dce7a89c4c][ali]]  |
+| IO Port extender | MCP23017 (or MCP23S17)        |      0-3 |   0.90 | (a 1pcs)   | [[https://www.aliexpress.com/item/MCP23017-Serial-Interface-Module-IIC-I2C-SPI-MCP23S17-Bidirectional-16-Bit-I-O-Expander-Pins-10Mhz/32830799627.html?spm=2114.search0104.3.2.b1f8401cwZ3nyZ&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10548_10696_10924_10084_453_454_10083_10618_10920_10921_10304_10307_10922_10820_10821_537_10302_536_10843_10059_10884_10887_100031_10319_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=d7effa52-1405-42c0-8a89-f44957fe2618-0&algo_pvid=d7effa52-1405-42c0-8a89-f44957fe2618][ali]]  |
+| Screen           | 3.5" 320x480                  |        1 |  13.00 |            | [[https://www.banggood.com/3_5-LCD-Touch-Screen-Display-Module-Board-320x480-RGB-For-Raspberry-Pi-2-B-B-p-1145103.html?rmmds=search&cur_warehouse=CN][bg]]   |
+|                  |                               |          | 115.00 |            |      |
 
 
+*This list is not finished yet*
 Some of the Links contain more parts the needed for this project and depending on how you want to build it some won't be needed at all.
+A Solution to power the PI from batteries isn't included yet. 
 
 *** Keyboard matrix
 
