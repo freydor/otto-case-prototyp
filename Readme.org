@@ -3,12 +3,14 @@
 *This is a work-in-progress*
 
 
-This Repository contains a 3D-printable model for an OTTO Synthesizer.
+This Repository contains a 3D-printable model for the [[https://github.com/topisani/OTTO][OTTO Synthesizer]]
+
 The design is still in development!
 
 
 The files can be viewed with OpenSCAD.
 The case is spilt in multiple parts so they can be reused.
+
 
 ** Hardware
 
