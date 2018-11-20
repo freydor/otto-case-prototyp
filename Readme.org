@@ -1,5 +1,5 @@
  
-# OTTO Prototyp
+* OTTO Prototyp
 *This is a work-in-progress*
 This Repository contains a 3D-printable model for an OTTO Synthesizer.
 The design is still in development!
@@ -8,7 +8,7 @@ The design is still in development!
 The files can be viewed with OpenSCAD.
 The case is spilt in multiple parts so they can be reused.
 
-## Hardware
+** Hardware
 
 The table below shows the parts used in this OTTO Prototyp
 
@@ -31,13 +31,13 @@ The table below shows the parts used in this OTTO Prototyp
 
 Some of the Links contain more parts the needed for this project and depending on how you want to build it some won't be needed at all.
 
-### Keyboard matrix
+*** Keyboard matrix
 
 The STM32F4 has enough GPIOs to connect all buttons directly.
 If you want to use a other µC like an Arduino Nano you can either build a keymatrix or use some MCP23017 to get more GPIOs.
 Each button needs one GPIO and each encoder 3 which are together 60 Pins.
 
-## 3D parts
+** 3D parts
 
 There are a few parts that can be reused.
 The Layout of buttons is based on standard prototyp PCBs which are available cheaply on ebay or aliexpress.
@@ -49,7 +49,7 @@ If something breaks you can un-screw and replace/fix it.
 
 There is a cut-out for the Raspberry Pi 3 in the bottom of the case.
 
-## Renders and pictures
+** Renders and pictures
 
 
 
